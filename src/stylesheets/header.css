@@ -1,0 +1,33 @@
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: burlywood;
+  padding: 0 30px 0 30px;
+  height: 15vh;
+}
+
+.app-logo > img{
+  height: 15vh;
+  aspect-ratio: 1/1;
+}
+
+.app-logo{
+  height: 100%;
+}
+
+.app-info{
+  display: flex;
+  align-items: center;
+}
+
+.app-title{
+  font-size: 3em;
+  color: #3577bb;
+  font-family: monospace;
+}
+
+.search > form {
+  display: flex;
+  height: 5vh;
+}
