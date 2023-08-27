@@ -1,0 +1,11 @@
+.homepage-sun{
+  height: 30vh;
+  aspect-ratio: 1/1;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
