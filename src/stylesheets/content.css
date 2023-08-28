@@ -1,6 +1,7 @@
-.homepage-sun{
+.homepage-sun, .homepage-cloud, .homepage-rain{
   height: 30vh;
   aspect-ratio: 1/1;
+  border: 3px solid red
 }
 
 .content{
