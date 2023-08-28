@@ -3,12 +3,12 @@ function weatherApiKey() {
 }
 
 async function weatherData(location) {
-  let forecast = await fetch(
+  const forecast = await fetch(
     `http://api.weatherapi.com/v1/forecast.json?key=${weatherApiKey()}&q=${location}&days=1&aqi=no&alerts=no`
   );
-  forecast = await forecast.json();
+  const forecastJson = await forecast.json();
 
-  return forecast;
+  return forecastJson;
 }
 
 export default weatherData;

@@ -1,12 +1,27 @@
 .homepage-sun, .homepage-cloud, .homepage-rain{
-  height: 30vh;
+  height: 40vh;
   aspect-ratio: 1/1;
-  border: 3px solid red
+}
+
+.forecastData{
+  border: 3px solid rgb(218, 141, 87);
+  border-radius: 20px;
+  height: 50vh;
+  width: 30vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: pre;
+  font-variant: small-caps;
+  font-weight: bold;
+  color: #624a0e;
 }
 
 .content{
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   justify-content: center;
-  height: 85vh;
+  height: 80vh;
+  margin-top: 5vh;
+
 }
